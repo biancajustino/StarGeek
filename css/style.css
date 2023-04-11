@@ -1,0 +1,254 @@
+body {
+    background-color: rgb(32, 12, 90);
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: rgb(47, 5, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+header>img {
+    width: 80px;
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li:hover {
+    background-color: rgb(18, 4, 107);
+}
+
+.menu>li>a {
+    color: rgb(243, 235, 235);
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(116, 29, 197);
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: 600;
+
+
+}
+
+.login {
+    background-color: rgb(47, 5, 85);
+    padding: 2px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 2px;
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+border-radius: 20px;
+}
+
+.um {
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color: azure;
+    color: rgb(14, 14, 14);
+    border-radius: 20px;
+}
+
+.dois {
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color: azure;
+    color: rgb(15, 15, 15);
+    border-radius: 20px;
+}
+
+.botom {
+    margin: 150px;
+
+    text-align: center;
+    border-bottom: 20px;
+}
+
+
+
+.assine {
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    justify-content: end;
+
+}
+
+
+h1 {
+    color: azure;
+text-align: center;
+}
+
+.tres {
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color: azure;
+    color: rgb(15, 15, 15);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cadrasto {
+    background-color: rgb(47, 5, 85);
+    padding: 2px;
+    height: 500px;
+    width: 600px;
+    padding-left: 2px;
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.quatro {
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color: azure;
+    color: rgb(14, 14, 14);
+    border-radius: 20px;
+}
+
+.cinco {
+    margin: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 450px;
+    background-color: azure;
+    color: rgb(15, 15, 15);
+    border-radius: 20px;
+}
+
+
+
+
+
+button {
+    --green: #721bfd;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(61, 27, 253, 0.1) 1%, transparent 40%, transparent 60%, rgba(60, 43, 158, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(68, 14, 144, 0.4), 0 0 9px 3px rebeccapurple;
+    margin: 10px;
+    display: flex;
+}
+
+button:hover {
+    color: #5117bd;
+    box-shadow: inset 0 0 10px rgba(60, 4, 157, 0.6), 0 0 9px 3px rebeccapurple;
+    display: flex;
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rebeccapurple);
+    display: flex;
+}
+
+button:hover:before {
+    transform: translateX(15em);
+    display: flex;
+}
+
+
+label {
+    color: azure;
+    display: flex;
+    right: 80%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EscolhaImagem {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 25%;
+}
+.noventa{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    text-align: center;
+}
+
+.eu{
+    position: absolute;
+    top: 200px;
+ 
+    right: 20%;
+}
+
+.never{
+    position: absolute;
+    top: 200px;
+ 
+    right: 60%;
+}
+
+.bola{
+    position: absolute;
+    top: 300px;
+ 
+    right: 60%;
+}
+
+.redonda{
+    position: absolute;
+    top: 300px;
+ 
+    right: 80%;
+}
+
+

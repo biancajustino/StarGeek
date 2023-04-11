@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+.cabecalho {
+    background-color: rgb(47, 5, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+header>img {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li:hover {
+    background-color: rgb(18, 4, 107);
+}
+
+.menu>li>a {
+    color: rgb(243, 235, 235);
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(116, 29, 197);
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: 600;
+
+
+}
+
+
+p{
+    color: white;
+}
+
+
+.hallo{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+
+}
+.imagem{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.star{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+
+}
+
+.escrita{
+  color: rgb(106, 101, 101);
+  position: absolute;
+    top: 250px;
+    left: 10px;
+
+}
+
+.filmes{
+        display: flex;
+        overflow: scroll;
+        
+    
+}
+
+.filmes::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+.romance{
+    display: flex;
+        overflow: scroll;
+     
+}
+
+.romance::-webkit-scrollbar{
+    display: none;
+}
+
+
+.amor{
+    color: rgb(106, 101, 101);
+}
+
+
+.terror{
+    color: rgb(106, 101, 101);
+}
+
+
+
+
+.cm{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+
+}
+.imagem{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+
+.dez{
+    position: absolute;
+width: 1379px;
+height: 700px;
+left: 7px;
+top: 1855px;
+}
+

@@ -1,0 +1,132 @@
+body {
+    background: rgb(121, 9, 103);
+    background: linear-gradient(90deg, rgba(121, 9, 103, 1) 20%, rgba(235, 11, 95, 0.9248949579831933) 88%);
+}
+
+.hi {
+    position: absolute;
+    width: 605px;
+    height: 7px;
+    left: 610px;
+    top: 223px;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rainha{
+    position: absolute;
+    width: 598px;
+    height: 346px;
+    left: 821px;
+    top: 1157px;
+
+
+}
+
+
+
+
+
+
+.escrita{position: absolute;
+    width: 765px;
+    height: 548px;
+    left: 17px;
+    top: 1146px;
+    
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    
+    color: #FFFFFF;}
+
+  .dois{
+    position: absolute;
+width: 660px;
+height: 479px;
+left: 726px;
+top: 1935px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 80px;
+
+color: #FFFFFF;
+  }
+
+
+  .tres{
+    position: absolute;
+width: 810px;
+height: 88px;
+left: 681px;
+top: 2588px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 80px;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container svg:hover {
+  transform: scale(1.1);
+}
+
+.container input:checked ~ svg {
+  fill: #ffeb49;
+}
+.botao-sete{
+    background-image: linear-gradient(-45deg, rgb(18, 221, 42), rgb(135, 233, 50), rgb(56, 243, 109));
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 30px 30px 14px 14px ;
+    border:solid 1px pink;
+    margin: 10px;
+    color: white;
+}
+.img{
+    width: 50px;
+}
